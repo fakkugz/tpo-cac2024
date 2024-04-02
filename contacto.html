@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+        <nav class="menu">
+          <img src="#" alt="logo" />
+          <ul>
+            <li>
+              <a href="#">Tienda</a>
+            </li>
+            <li>
+              <a href="#">Blog</a>
+            </li>
+            <li>
+              <a href="#">Contacto</a>
+            </li>
+          </ul>
+          <img src="#" alt="carrito" />
+        </nav>
+      </header>
+    <main>
+        <section>
+            <h2>Registro</h2>
+            <form action="#" method="GET">
+                <!-- get= filtro de busqueda, que te devuelve un valor, -->
+                <div>
+                    <label for="">Nombre</label>
+                    <!-- atributos mas importantes, el name -->
+                    <input type="text" name="firstname" id="firstname" required>
+                
+
+                </div>
+                <br>
+                <div>
+                    <label for="">Apellido</label>
+    <!-- atributos mas imortantes, el name -->
+                    <input type="text" name="lastname" id="lastname" maxlength="4" minlength="2" >
+                </div>
+                <br>
+                <div>
+                    <label for="">Email</label>
+                    
+                    <input type="email" name="email" id="email" placeholder="Por favor ingresa el email">
+                </div>
+                <br>
+                <div>
+                    <label for="">Contaseña</label>
+                    <input type="password" name="password" id="password">
+                </div>
+                <br>
+                <div>
+                    <label for="birthdate">Fecha de Nacimiento</label>
+                    <input type="date" name="birthdate" id="birthdate">
+                </div>                
+                <br>
+                <div>
+                    <label for="">País</label>
+                    <select name="country" id="country" required>
+                        <option value="">Seleccione</option>
+                        <option value="AR">Argentina</option>
+                        <option value="BO">Bolivia</option>
+                        <option value="BR">Brasil</option>
+                    </select>
+                </div>
+                <div>
+                    <input type="radio" id="terms" name="terms">
+                    <label for="terms">Acepto términos y condiciones</label>
+        <!-- para que no se pueda elegir mas de una opcion hacer radio button -->
+                    <input type="radio" id="terms" name="terms2">
+                    <label for="terms">Quiero recibir ofertas y articulos informativos</label>
+                    <input type="radio" id="terms2" name="terms">
+                    <label for="terms">Me interesa suscribirme a las ferias de plantas</label>
+                </div>
+                <!-- boton de envio 
+                <input type="submit" value="Registrarse">-->
+                <button type="submit">
+                    Registrarse
+                </button>
+            </form>
+
+        </section>
+<section>
+    <iframe src="" frameborder="0"></iframe>
+</section>
+      </form>
+    </main>
+    <footer>
+        <p>Direccion</p>
+        <p>Derechos</p>
+        <img src="#" alt="" />
+        <img src="#" alt="" />
+      </footer>
+  </body>
+</html>
