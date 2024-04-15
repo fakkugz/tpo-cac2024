@@ -2,7 +2,7 @@
 
 /* HAY 3 TIPOS DE SELECTORES: de etiqueta, clase y Id . su funcion es seleccionar elementos del html*/
 
-/* selector universal*/
+
 * {
   font-family: "Poppins", sans-serif;
   /* reset */ /* como si reseteara las configuraciones preestablecidas*/
@@ -38,7 +38,7 @@ body {
 /* selectores descendente de etiqueta*/
 
 nav {
-  background-color: #eae9d4;
+  background-color: #eae9d5;
   padding: 8px 30px;
   font-size: 1rem;
   position: fixed;
