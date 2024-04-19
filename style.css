@@ -42,6 +42,7 @@ nav {
   background-color: #eae9d5;
   padding: 8px 30px;
   font-size: 1rem;
+  display: flex;
   position: fixed;
   display: flex;
   justify-content: space-between;
@@ -50,6 +51,13 @@ nav {
   left: 0;
   width: 100%;
 }
+
+
+.logo-a{
+  text-decoration: none;
+  color: black;
+}
+
 nav ul {
   list-style: none;
   display:flex;
@@ -84,6 +92,7 @@ p {
 
 main {
   padding: 10px 30px;
+  margin-top: 100px;
 }
 
 footer {
