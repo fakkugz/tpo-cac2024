@@ -43,13 +43,18 @@ nav {
   padding: 8px 30px;
   font-size: 1rem;
   position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   top: 0;
   left: 0;
   width: 100%;
 }
 nav ul {
   list-style: none;
-  display: inline-block;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 nav ul li {
   margin-right: 100px;
@@ -62,7 +67,6 @@ nav ul li a {
 nav a img {
   width: 100px;
   margin-right: 80px;
-  display: inline-block;
 }
 
 header img {
