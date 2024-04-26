@@ -50,12 +50,12 @@ nav {
   font-size: 1rem;
   display: flex;
   position: fixed;
-  display: flex;
   justify-content: space-between;
   align-items: center;
   top: 0;
   left: 0;
   width: 100%;
+  text-align: center;
 }
 
 
@@ -68,10 +68,15 @@ nav ul {
   display:flex;
   justify-content: center;
   align-items: center;
+  padding-left: 0;
+  font-size: 25px;
+  margin-bottom: 0;
 }
+
 nav ul li {
   margin-right: 100px;
   display: inline-block;
+  
 }
 nav ul li a {
   text-decoration: none;
@@ -79,7 +84,11 @@ nav ul li a {
 }
 nav a img {
   width: 100px;
-  margin-right: 80px;
+  
+}
+
+i {
+  font-size: 25px;
 }
 
 header img {
@@ -153,3 +162,13 @@ footer img {
   text-align: center;
 }
 
+.section1-inicio p {
+  font-size: 20px;
+}
+.section2-inicio p{
+  font-size: 18px;
+}
+.section3-title, .section4-title {
+  font-size: 30px;
+  color: darkgreen;
+}
