@@ -1,4 +1,3 @@
-HOLU QUE TAL
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap");
 
 /* HAY 3 TIPOS DE SELECTORES: de etiqueta, clase y Id . su funcion es seleccionar elementos del html*/
@@ -39,11 +38,12 @@ body {
 /* selectores descendente de etiqueta*/
 
 nav {
-  background-color: #eae9d5;
+  background-color: #c2e9af;
   padding: 8px 30px;
   font-size: 1rem;
   display: flex;
   position: fixed;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   top: 0;
@@ -52,14 +52,15 @@ nav {
 }
 
 
-.logo-a{
-  text-decoration: none;
-  color: black;
+#logo{
+  width: 80px;
 }
 
 nav ul {
   list-style: none;
-  padding-top: 15px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 nav ul li {
   margin-right: 100px;
@@ -72,21 +73,20 @@ nav ul li a {
 nav a img {
   width: 100px;
   margin-right: 80px;
-  display: inline-block;
 }
 
 header img {
   width: 100%;
 }
 
-p {
+/* p {
   color: rgb(80, 75, 75);
   font-weight: 500;
   font-size: 1rem;
   padding: 8px 30px;
   line-height: 1, 5rem;
   height: auto;
-}
+} */
 
 main {
   padding: 10px 30px;
@@ -133,5 +133,16 @@ color: #505a21;
   left: 0;
   width: 100%;
   z-index: 9999;
+}
+
+.section1-inicio, .section2-inicio{
+  display: flex;
+  justify-content: space-around;
+}
+
+.image-container {
+  padding: 1rem;
+  justify-items:center;
+  text-align: center;
 }
 
