@@ -94,14 +94,14 @@ main {
 }
 
 footer {
-display: flex;
-flex-direction: row;
-justify-content: flex-start;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 
 footer img {
-height: 5rem;
-color: #505a21;
+  height: 5rem;
+  color: #505a21;
 }
 
 .inicio {
@@ -110,7 +110,7 @@ color: #505a21;
   flex-wrap: wrap;
   justify-content: space-around;
 }
-
+/* arreglar inicio */
 .section1-inicio img {
   width: 130px;
 }
