@@ -15,26 +15,34 @@
   <body>
     <header class="header">
       <nav>
-        <div>
-        <a href="./index.html" class="logo-a">
-          <img src="./img/logo.png" id="logo" alt="logo">
-        </a>
+        <div class="logo-container">
+          <a href="./index.html" class="logo-a">
+            <img src="./img/logo.png" id="logo" alt="logo">
+          </a>
         </div>
-      <ul>
-        <li>
-          <a href="/tienda.html">Tienda</a>
-        </li>
-        <li>
-          <a href="/blog.html">Blog</a>
-        </li>
-        <li>
-          <a href="/contacto.html">Contacto</a>
-        </li>
-      </ul>
-        <a href="#">
-          <i class="fa-solid fa-cart-shopping" id="carrito"></i>
-        </a>
-    </nav>
+        <div class="menu" id="main-menu">
+          <span class="close-menu">
+            <i class="fa-solid fa-x" id="close-menu-button"></i>
+          </span>
+          <ul>
+            <li>
+              <a href="/tienda.html">Tienda</a>
+            </li>
+            <li>
+              <a href="/blog.html">Blog</a>
+            </li>
+            <li>
+              <a href="/contacto.html">Contacto</a>
+            </li>
+          </ul>
+          <a href="/tienda.html" class="carrito">
+            <i class="fa-solid fa-cart-shopping" id="carrito"></i>
+          </a>
+        </div>
+        <span>
+          <i class="fa-solid fa-bars" id="open-menu-button"></i>
+        </span>
+      </nav>
   </header>
 
   <main>
@@ -137,14 +145,15 @@
           <i class="fa-brands fa-instagram"></i>
         </a>
       </div>  
-  
-      <a href="./contacto.html">Avenida Boedo 3322</a>
-      <a href="#">Términos y condiciones</a>
-      <a href="#">Preguntas Frecuentes</a>
-
+      <div class="datos">
+        <a href="./contacto.html">Avenida Boedo 3322</a>
+        <a href="#">Términos y condiciones</a>
+        <a href="#">Preguntas Frecuentes</a>
+      </div>
   </footer>
     <div class="contenedor">
       <img src="./img/blog/pngegg-2.png" class="imagen-fija" alt="hojas de palmera">
     </div>
+  <script src="./scripts/menu.js" ></script>
   </body>
 </html>
