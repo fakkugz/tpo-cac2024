@@ -112,12 +112,20 @@ main {
 footer {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content:space-around;
+  height: 150px;
+  padding: 40px;
+  background-color:  #c2e9af;
 }
 
 footer img {
-  height: 5rem;
+  height: 3rem;
   color: #505a21;
+}
+
+.logos-foot{
+
+
 }
 
 .inicio {
@@ -126,6 +134,7 @@ footer img {
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
 /* arreglar inicio */
 .section1-inicio img {
   width: 130px;
