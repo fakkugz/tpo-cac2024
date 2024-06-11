@@ -413,6 +413,24 @@ aside h3 {
     transform: initial;
   }
 
+  /*--INDEX--*/
+
+  .section1-inicio img {
+    width: 90px;
+  }
+
+  .section1-inicio p {
+    font-size: 15px;
+  }
+
+  .section2-inicio {
+    flex-wrap: wrap;
+  }
+  
+  .recomendacion {
+    flex-wrap: wrap;
+  }
+
   /*--BLOG--*/
 
   .blog-container {
@@ -432,7 +450,6 @@ aside h3 {
 }
 
 @media screen and (max-width: 768px) {
-  /*--BLOG--*/
 
   .blog-container {
     grid-template-columns: 1fr;
@@ -443,6 +460,11 @@ aside h3 {
     grid-column: 1 /2;
     margin-top: 2rem;
   }
+
+  .visitanos iframe{
+    width: 500px;
+  }
+
 }
 
 /*--FOOTER--*/
@@ -811,11 +833,12 @@ footer a {
 }
 
 .terms {
-  text-align: center;
+  padding-left: 1rem;
   margin-bottom: 1rem;
 }
 
 form {
+  width: 332px;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -823,6 +846,9 @@ form {
 
 .form-control {
   border: none;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5f5ef;
 }
 
 .titulo-contacto {
