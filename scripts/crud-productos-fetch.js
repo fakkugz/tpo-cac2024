@@ -22,23 +22,23 @@ async function fetchData(url, method, data = null) {
 }
 
 async function showProductos(){
-    let productos =  await fetchData(BASEURL+'/gestion/', 'GET');
-    const tableProductos = document.querySelector('#list-table-products tbody');
-    tableProductos.innerHTML='';
-    productos.forEach((producto, index) => {
-      let tr = `<tr>
-                    <td>${producto.nombre}</td>
-                    <td>${producto.precio}</td>
-                    <td>
-                        <img src="${producto.url_imagen}" width="20%">
-                    </td>
-                    <td>
-                        <button class="btn-viv" onclick='updateProducto(${producto.id_producto})'><i class="fa fa-pencil" ></button></i>
-                        <button class="btn-viv" onclick='deleteProducto(${producto.id_producto})'><i class="fa fa-trash" ></button></i>
-                    </td>
-                  </tr>`;
-      tableProductos.insertAdjacentHTML("beforeend",tr);
-    });
+  let productos =  await fetchData(BASEURL+'/gestion/', 'GET');
+  const tableProductos = document.querySelector('#list-table-products tbody');
+  tableProductos.innerHTML='';
+  productos.forEach((producto, index) => {
+    let tr = `<tr>
+                  <td>${producto.nombre}</td>
+                  <td>${producto.precio}</td>
+                  <td>
+                      <img src="${producto.url_imagen}" width="20%">
+                  </td>
+                  <td>
+                      <button class="btn-viv" onclick='updateProducto(${producto.id_producto})'><i class="fa fa-pencil" ></button></i>
+                      <button class="btn-viv" onclick='deleteProducto(${producto.id_producto})'><i class="fa fa-trash" ></button></i>
+                  </td>
+                </tr>`;
+    tableProductos.insertAdjacentHTML("beforeend",tr);
+  });
 }
 
 

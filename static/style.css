@@ -596,8 +596,16 @@ footer a {
   text-align: center;
   margin-bottom: 2rem;
 }
-.tienda p:nth-child(3) {
+
+.t-item-nombre {
+  font-size: 25px;
+  margin: 0.3rem 0;
+}
+
+.t-item-precio {
   font-weight: bold;
+  font-size: 25px;
+  color:#133a0e;
   margin-bottom: 1rem;
 }
 
